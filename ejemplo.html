@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone Store</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Tu CSS -->
+    <link rel="stylesheet" href="gamezone.css">
+</head>
+
+<body class="bg-light">
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="ejemplo.html">
+                🎮 GameZone Store
+            </a>
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuPrincipal">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="solicitud.html">
+                            Solicitud HTTP
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="servidor.html">
+                            Servidor Web
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="renderizado.html">
+                            Renderizado HTML
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="ejemplo.html">
+
+                            Ejemplo Práctico
+
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- HERO -->
+
+    <header class="bg-primary text-white py-5">
+
+        <div class="container text-center">
+
+            <h1 class="display-4 fw-bold">
+                🎮 GameZone Store
+            </h1>
+
+            <p class="lead">
+                Descubre videojuegos para PC, PlayStation, Xbox y Nintendo Switch.
+            </p>
+
+            <a href="#destacados"
+               class="btn btn-light btn-lg mt-2">
+
+                Ver juegos destacados
+
+            </a>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- PRESENTACIÓN -->
+
+        <section id="inicio" class="container py-5">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6 mb-4">
+
+                    <img src="img/gamezone-banner.png"
+                        class="img-fluid rounded shadow"
+                        alt="Banner GameZone Store">
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <h2 class="fw-bold mb-3">
+                        Bienvenido a GameZone Store
+                    </h2>
+
+                    <p>
+
+                        GameZone Store es un espacio donde podrás descubrir nuevos videojuegos,
+                        consultar títulos populares y conocer las últimas novedades del mundo gamer.
+
+                    </p>
+
+                    <p>
+
+                        Nuestro objetivo es ofrecer información organizada sobre juegos
+                        disponibles para diferentes plataformas y géneros.
+
+                    </p>
+
+                    <button class="btn btn-primary">
+
+                        Explorar catálogo
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CATEGORÍAS -->
+
+        <section class="bg-dark text-white py-5">
+
+            <div class="container">
+
+                <h2 class="text-center fw-bold mb-5">
+
+                    Categorías populares
+
+                </h2>
+
+                <div class="row g-4">
+
+                    <div class="col-6 col-md-4 col-lg-2">
+
+                        <div class="card text-center h-100 shadow-sm">
+
+                            <div class="card-body">
+
+                                <div class="fs-1">
+                                    ⚔️
+                                </div>
+
+                                <h5 class="card-title mt-3">
+                                    Acción
+                                </h5>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+
+                        <div class="card text-center h-100 shadow-sm">
+
+                            <div class="card-body">
+
+                                <div class="fs-1">
+                                    🧙
+                                </div>
+
+                                <h5 class="card-title mt-3">
+                                    RPG
+                                </h5>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+
+                        <div class="card text-center h-100 shadow-sm">
+
+                            <div class="card-body">
+
+                                <div class="fs-1">
+                                    🏎️
+                                </div>
+
+                                <h5 class="card-title mt-3">
+                                    Carreras
+                                </h5>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+
+                        <div class="card text-center h-100 shadow-sm">
+
+                            <div class="card-body">
+
+                                <div class="fs-1">
+                                    ⚽
+                                </div>
+
+                                <h5 class="card-title mt-3">
+                                    Deportes
+                                </h5>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                                        <div class="col-6 col-md-4 col-lg-2">
+
+                        <div class="card text-center h-100 shadow-sm">
+
+                            <div class="card-body">
+
+                                <div class="fs-1">
+                                    🗺️
+                                </div>
+
+                                <h5 class="card-title mt-3">
+                                    Aventura
+                                </h5>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+
+                        <div class="card text-center h-100 shadow-sm">
+
+                            <div class="card-body">
+
+                                <div class="fs-1">
+                                    🧠
+                                </div>
+
+                                <h5 class="card-title mt-3">
+                                    Estrategia
+                                </h5>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- JUEGOS DESTACADOS -->
+
+        <section id="destacados" class="container py-5">
+
+            <div class="text-center mb-5">
+
+                <h2 class="fw-bold">
+                    Juegos destacados
+                </h2>
+
+                <p class="text-muted">
+                    Estos son algunos de los videojuegos más populares de nuestra tienda.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-lg-4">
+
+                    <div class="card shadow-sm h-100">
+
+                        <div class="card-body">
+
+                            <span class="badge bg-success mb-3">
+                                Sandbox
+                            </span>
+
+                            <h3 class="card-title">
+                                Minecraft
+                            </h3>
+
+                            <p class="card-text">
+
+                                Construye, explora y sobrevive en un mundo infinito
+                                lleno de posibilidades.
+
+                            </p>
+
+                            <a href="#catalogo"
+                               class="btn btn-outline-primary">
+
+                                Más información
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="card shadow-sm h-100">
+
+                        <div class="card-body">
+
+                            <span class="badge bg-danger mb-3">
+                                RPG
+                            </span>
+
+                            <h3 class="card-title">
+                                Elden Ring
+                            </h3>
+
+                            <p class="card-text">
+
+                                Una aventura de mundo abierto con enormes desafíos,
+                                exploración y combates épicos.
+
+                            </p>
+
+                            <a href="#catalogo"
+                               class="btn btn-outline-primary">
+
+                                Más información
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="card shadow-sm h-100">
+
+                        <div class="card-body">
+
+                            <span class="badge bg-warning text-dark mb-3">
+                                Carreras
+                            </span>
+
+                            <h3 class="card-title">
+                                Forza Horizon 5
+                            </h3>
+
+                            <p class="card-text">
+
+                                Recorre escenarios impresionantes inspirados
+                                en México con cientos de vehículos.
+
+                            </p>
+
+                            <a href="#catalogo"
+                               class="btn btn-outline-primary">
+
+                                Más información
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- OFERTA -->
+
+        <section class="container mb-5">
+
+            <div class="alert alert-warning shadow-sm">
+
+                <h2 class="h4">
+
+                    🔥 Oferta de la semana
+
+                </h2>
+
+                <p class="mb-0">
+
+                    Minecraft cuenta con un descuento del
+                    <strong>20%</strong>
+                    para nuevos usuarios registrados.
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- TABLA -->
+
+        <section id="catalogo" class="container py-5">
+
+            <h2 class="fw-bold mb-4">
+
+                Catálogo de juegos
+
+            </h2>
+
+            <div class="table-responsive">
+
+                <table class="table table-striped table-hover table-bordered align-middle">
+
+                    <thead class="table-dark">
+
+                        <tr>
+
+                            <th>Juego</th>
+                            <th>Plataforma</th>
+                            <th>Género</th>
+                            <th>Precio</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>Minecraft</td>
+                            <td>PC</td>
+                            <td>Sandbox</td>
+                            <td>$29.99</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Elden Ring</td>
+                            <td>PC / Xbox</td>
+                            <td>RPG</td>
+                            <td>$59.99</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Forza Horizon 5</td>
+                            <td>PC / Xbox</td>
+                            <td>Carreras</td>
+                            <td>$49.99</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>EA FC 26</td>
+                            <td>PlayStation 5</td>
+                            <td>Deportes</td>
+                            <td>$69.99</td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+              <!-- FORMULARIO DE CONTACTO -->
+
+<section id="contacto"
+         class="container py-5"
+         aria-labelledby="titulo-contacto">
+
+    <div class="row justify-content-center">
+
+        <div class="col-12 col-md-10 col-lg-8">
+
+            <article class="card border-0 shadow">
+
+                <div class="card-body p-4 p-md-5">
+
+                    <span class="badge bg-primary mb-3">
+                        Contacto
+                    </span>
+
+                    <h2 id="titulo-contacto"
+                        class="fw-bold text-primary mb-3">
+
+                        Solicitar información
+
+                    </h2>
+
+                    <p class="text-muted mb-4">
+
+                        Completa los siguientes campos para recibir información
+                        sobre nuestros videojuegos. Los campos marcados con
+                        <span aria-hidden="true">*</span> son obligatorios.
+
+                    </p>
+
+                    <form action="#"
+                          method="post">
+
+                        <!-- DATOS PERSONALES -->
+
+                        <fieldset class="mb-4">
+
+                            <legend class="h4 fw-semibold mb-3">
+                                Datos personales
+                            </legend>
+
+                            <div class="row g-3">
+
+                                <div class="col-12 col-md-6">
+
+                                    <label for="nombre"
+                                           class="form-label">
+
+                                        Nombre completo
+                                        <span class="text-danger"
+                                              aria-hidden="true">*</span>
+
+                                    </label>
+
+                                    <input type="text"
+                                           class="form-control"
+                                           id="nombre"
+                                           name="nombre"
+                                           placeholder="Ingrese su nombre"
+                                           autocomplete="name"
+                                           aria-describedby="ayuda-nombre"
+                                           required>
+
+                                    <div id="ayuda-nombre"
+                                         class="form-text">
+
+                                        Escribe tu nombre y apellido.
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-12 col-md-6">
+
+                                    <label for="correo"
+                                           class="form-label">
+
+                                        Correo electrónico
+                                        <span class="text-danger"
+                                              aria-hidden="true">*</span>
+
+                                    </label>
+
+                                    <input type="email"
+                                           class="form-control"
+                                           id="correo"
+                                           name="correo"
+                                           placeholder="correo@ejemplo.com"
+                                           autocomplete="email"
+                                           aria-describedby="ayuda-correo"
+                                           required>
+
+                                    <div id="ayuda-correo"
+                                         class="form-text">
+
+                                        No compartiremos tu correo con terceros.
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </fieldset>
+
+                        <!-- PREFERENCIAS -->
+
+                        <fieldset class="mb-4">
+
+                            <legend class="h4 fw-semibold mb-3">
+                                Preferencias de videojuegos
+                            </legend>
+
+                            <div class="row g-3">
+
+                                <div class="col-12 col-md-6">
+
+                                    <label for="plataforma"
+                                           class="form-label">
+
+                                        Plataforma favorita
+                                        <span class="text-danger"
+                                              aria-hidden="true">*</span>
+
+                                    </label>
+
+                                    <select class="form-select"
+                                            id="plataforma"
+                                            name="plataforma"
+                                            required>
+
+                                        <option value="" selected disabled>
+                                            Seleccione una opción
+                                        </option>
+
+                                        <option value="pc">PC</option>
+
+                                        <option value="playstation">
+                                            PlayStation
+                                        </option>
+
+                                        <option value="xbox">Xbox</option>
+
+                                        <option value="nintendo-switch">
+                                            Nintendo Switch
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+                                <div class="col-12 col-md-6">
+
+                                    <label for="juego"
+                                           class="form-label">
+
+                                        Juego de interés
+                                        <span class="text-danger"
+                                              aria-hidden="true">*</span>
+
+                                    </label>
+
+                                    <select class="form-select"
+                                            id="juego"
+                                            name="juego"
+                                            required>
+
+                                        <option value="" selected disabled>
+                                            Seleccione un juego
+                                        </option>
+
+                                        <option value="minecraft">
+                                            Minecraft
+                                        </option>
+
+                                        <option value="elden-ring">
+                                            Elden Ring
+                                        </option>
+
+                                        <option value="forza-horizon-5">
+                                            Forza Horizon 5
+                                        </option>
+
+                                        <option value="ea-fc-26">
+                                            EA FC 26
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                        </fieldset>
+
+                        <!-- COMENTARIO -->
+
+                        <div class="mb-4">
+
+                            <label for="mensaje"
+                                   class="form-label">
+
+                                Comentario
+                                <span class="text-danger"
+                                      aria-hidden="true">*</span>
+
+                            </label>
+
+                            <textarea class="form-control"
+                                      id="mensaje"
+                                      name="mensaje"
+                                      rows="5"
+                                      placeholder="Escriba aquí su mensaje"
+                                      aria-describedby="ayuda-mensaje"
+                                      required></textarea>
+
+                            <div id="ayuda-mensaje"
+                                 class="form-text">
+
+                                Describe brevemente la información que necesitas.
+
+                            </div>
+
+                        </div>
+
+                        <!-- PRIVACIDAD -->
+
+                        <div class="form-check mb-4">
+
+                            <input class="form-check-input"
+                                   type="checkbox"
+                                   id="privacidad"
+                                   name="privacidad"
+                                   required>
+
+                            <label class="form-check-label"
+                                   for="privacidad">
+
+                                Acepto el uso de mis datos para responder
+                                esta solicitud.
+
+                            </label>
+
+                        </div>
+
+                        <!-- BOTONES -->
+
+                        <div class="d-grid d-sm-flex gap-3">
+
+                            <button type="submit"
+                                    class="btn btn-primary btn-lg">
+
+                                Enviar solicitud
+
+                            </button>
+
+                            <button type="reset"
+                                    class="btn btn-outline-secondary btn-lg">
+
+                                Limpiar formulario
+
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+    <!-- FOOTER -->
+
+    <footer class="bg-dark text-white text-center py-4">
+
+        <div class="container">
+
+            <p class="mb-2">
+
+                © 2026 GameZone Store - Todos los derechos reservados.
+
+            </p>
+
+            <p class="mb-2">
+
+                Contacto:
+                <a href="mailto:info@gamezonestore.com"
+                   class="text-white">
+
+                    info@gamezonestore.com
+
+                </a>
+
+            </p>
+
+            <p class="mb-0">
+
+                Facebook | Instagram | X
+
+            </p>
+
+        </div>
+
+    </footer>
+        <!-- Bootstrap JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

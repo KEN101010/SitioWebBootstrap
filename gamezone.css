@@ -1,0 +1,39 @@
+/* ==========================
+   Estilos personalizados
+   GameZone
+   ========================== */
+
+/* Fuente general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contenido principal */
+main {
+    min-height: 70vh;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tarjetas de productos */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Botones */
+.btn {
+    transition: 0.3s;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 2rem;
+}

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Solicitud HTTP</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Tu archivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+
+    <!-- ENCABEZADO -->
+
+    <header class="bg-primary text-white text-center py-5">
+
+        <div class="container">
+
+            <h1 class="display-4 fw-bold">
+                Solicitud HTTP
+            </h1>
+
+            <p class="lead mb-0">
+
+                El navegador envía una petición al servidor para solicitar la información
+                correspondiente a la URL ingresada por el usuario.
+
+            </p>
+
+        </div>
+
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                🌐 Tecnologías Web
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="index.html">
+                            Inicio
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="solicitud.html">
+
+                            Solicitud HTTP
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="servidor.html">
+                            Servidor Web
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="renderizado.html">
+                            Renderizado HTML
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="ejemplo.html">
+                            Ejemplo Práctico
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <main class="container py-5">
+
+        <!-- PASO 2 -->
+
+        <section class="card shadow-sm mb-5">
+
+            <div class="card-body p-4">
+
+                <h2 class="fw-bold text-primary mb-4">
+
+                    Paso 2: El navegador realiza una petición
+
+                </h2>
+
+                <p>
+
+                    Después de que el usuario escribe una URL, el navegador genera una
+                    solicitud HTTP para pedir información al servidor.
+
+                </p>
+
+                <p class="mb-0">
+
+                    HTTP significa <strong>HyperText Transfer Protocol</strong> y es el
+                    protocolo utilizado para intercambiar información en la Web.
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- EJEMPLO VISUAL -->
+
+        <section class="card shadow-sm mb-5">
+
+            <div class="card-body p-4">
+
+                <h2 class="fw-bold text-primary mb-4">
+
+                    Ejemplo visual
+
+                </h2>
+
+                <div class="text-center">
+
+                    <img src="img/img2.png"
+                         class="img-fluid rounded shadow"
+                         alt="Solicitud HTTP">
+
+                </div>
+
+                <p class="mt-4 mb-0">
+
+                    El navegador envía una solicitud al servidor para obtener la página
+                    web solicitada por el usuario.
+
+                </p>
+
+            </div>
+
+        </section>
+                <!-- MÉTODOS HTTP -->
+
+        <section class="card shadow-sm mb-5">
+
+            <div class="card-body p-4">
+
+                <h2 class="fw-bold text-primary mb-4">
+
+                    Métodos HTTP más utilizados
+
+                </h2>
+
+                <p>
+
+                    Existen diferentes métodos HTTP. Los más comunes son GET y POST.
+
+                </p>
+
+                <div class="table-responsive">
+
+                    <table class="table table-striped table-bordered table-hover align-middle">
+
+                        <thead class="table-dark">
+
+                            <tr>
+
+                                <th>Método</th>
+                                <th>Descripción</th>
+                                <th>Cuándo se usa</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>GET</td>
+                                <td>Solicita información al servidor.</td>
+                                <td>Cuando se desea visualizar una página web.</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>POST</td>
+                                <td>Envía información al servidor.</td>
+                                <td>Cuando se completa un formulario.</td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- EJEMPLO DE SOLICITUD HTTP -->
+
+        <section class="card shadow-sm mb-5">
+
+            <div class="card-body p-4">
+
+                <h2 class="fw-bold text-primary mb-4">
+
+                    Ejemplo de solicitud HTTP
+
+                </h2>
+
+                <p>
+
+                    Cuando el navegador solicita una página, puede enviar una petición
+                    similar a la siguiente:
+
+                </p>
+
+                <pre class="bg-dark text-light p-3 rounded overflow-auto">GET /index.html HTTP/1.1
+Host: www.ejemplo.com
+User-Agent: Navegador
+Accept: text/html</pre>
+
+            </div>
+
+        </section>
+
+        <!-- CARACTERÍSTICAS -->
+
+        <section class="card shadow-sm mb-5">
+
+            <div class="card-body p-4">
+
+                <h2 class="fw-bold text-primary mb-4">
+
+                    Características de una solicitud HTTP
+
+                </h2>
+
+                <ul class="list-group">
+
+                    <li class="list-group-item">
+                        Se genera desde el navegador.
+                    </li>
+
+                    <li class="list-group-item">
+                        Viaja a través de Internet.
+                    </li>
+
+                    <li class="list-group-item">
+                        Contiene información sobre el recurso solicitado.
+                    </li>
+
+                    <li class="list-group-item">
+                        Permite la comunicación entre cliente y servidor.
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+                <!-- DATO IMPORTANTE -->
+
+        <aside class="alert alert-success shadow-sm mb-5">
+
+            <h3 class="alert-heading">
+
+                📌 Dato importante
+
+            </h3>
+
+            <p class="mb-0">
+
+                Cada vez que visitamos una página web, el navegador realiza una o
+                varias solicitudes HTTP para obtener imágenes, textos y otros recursos.
+
+            </p>
+
+        </aside>
+
+        <!-- MÁS INFORMACIÓN -->
+
+        <section class="card shadow-sm mb-5">
+
+            <div class="card-body p-4">
+
+                <h2 class="fw-bold text-primary mb-4">
+
+                    Más información
+
+                </h2>
+
+                <p>
+
+                    Puedes consultar la documentación oficial sobre HTTP en:
+
+                </p>
+
+                <a href="https://developer.mozilla.org/es/docs/Web/HTTP"
+                   target="_blank"
+                   class="btn btn-outline-primary">
+
+                    📖 Documentación HTTP en MDN
+
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- ¿QUÉ SUCEDE DESPUÉS? -->
+
+        <section class="card shadow-sm mb-5">
+
+            <div class="card-body p-4">
+
+                <h2 class="fw-bold text-primary mb-4">
+
+                    ¿Qué sucede después?
+
+                </h2>
+
+                <p>
+
+                    Una vez que la solicitud llega al servidor, este procesa la petición
+                    y prepara una respuesta para enviarla de regreso al navegador.
+
+                </p>
+
+                <a href="servidor.html"
+                   class="btn btn-primary">
+
+                    ➜ Ir al Servidor Web
+
+                </a>
+
+            </div>
+
+        </section>
+            </main>
+
+    <!-- PIE DE PÁGINA -->
+
+    <footer class="bg-dark text-white text-center py-4">
+
+        <div class="container">
+
+            <p class="mb-0">
+
+                Proyecto educativo - Tecnologías Web
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
